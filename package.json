@@ -1,0 +1,29 @@
+{
+  "name": "koa-kiki-ral",
+  "version": "1.0.0",
+  "description": "ral for koa-kiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackiecookie/koa-kiki-ral.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-kiki",
+    "ral"
+  ],
+  "author": "jackiecookie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackiecookie/koa-kiki-ral/issues"
+  },
+  "homepage": "https://github.com/jackiecookie/koa-kiki-ral#readme",
+  "dependencies": {
+    "make-lint": "^1.0.1",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  }
+}
