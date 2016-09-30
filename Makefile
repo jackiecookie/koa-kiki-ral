@@ -1,6 +1,7 @@
 REQUIRED = --require should
 
-TESTS=test/*
+TESTS=test/* \
+    test/babel/index.js
 
 
 test:
