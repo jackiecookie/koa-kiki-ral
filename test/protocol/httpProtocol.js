@@ -11,6 +11,7 @@ describe('httpProtocol', function () {
         self.Ral = new Ral({
             configRoot: rightPath
         })
+        //create server to listen reauest
         http.createServer(function (request, response) {
             response.write(JSON.stringify({data: 'hear you'}));
             response.end();
