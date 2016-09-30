@@ -24,6 +24,7 @@
   "dependencies": {
     "make-lint": "^1.0.1",
     "mocha": "^3.0.2",
-    "should": "^11.1.0"
+    "should": "^11.1.0",
+    "underscore": "^1.8.3"
   }
 }
