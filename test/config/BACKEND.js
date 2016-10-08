@@ -1,6 +1,6 @@
 module.exports.TEST_SERVER = {
     protocol: 'http',
-    pack: 'json',
+    pack: 'querystring',
     unpack: 'json',
     method: 'POST',
     encoding: 'gbk',

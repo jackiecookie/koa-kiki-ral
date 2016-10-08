@@ -44,7 +44,7 @@ describe('httpProtocol', function () {
         let service = 'TEST_SERVER';
         let returnStr = 'hear you Mr.data'
         self.Ral.request(service, {
-            query: {
+            data: {
                 returnStr: returnStr
             }
         }).then(function (data) {
