@@ -34,9 +34,6 @@ Ral.prototype.request = async function (serviceName, option) {
 }
 
 
-
-
-
 Ral.prototype.middleware = async function (ctx, next) {
     ctx.ral = this;
     await next;

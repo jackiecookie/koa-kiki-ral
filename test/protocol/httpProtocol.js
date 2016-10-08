@@ -39,7 +39,7 @@ describe('httpProtocol', function () {
         });
     })
 
-    it('#request(config,data)', function (done) {
+    it('#request(config,opt.query)', function (done) {
         let self = this;
         let service = 'TEST_SERVER';
         let returnStr = 'hear you Mr.data'
