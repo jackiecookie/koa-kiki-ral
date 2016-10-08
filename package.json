@@ -23,7 +23,6 @@
   "homepage": "https://github.com/jackiecookie/koa-kiki-ral#readme",
   "dependencies": {
     "iconv-lite": "^0.4.13",
-    "underscore": "^1.8.3",
     "urlencode": "^1.1.0"
   },
   "devDependencies": {

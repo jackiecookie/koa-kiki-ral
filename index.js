@@ -23,7 +23,7 @@ function Ral(option) {
 Ral.prototype.request = async function (serviceName, option) {
     option = option || {};
     let self = this;
-    let defaultConfig = self.config.cache[serviceName];
+    let defaultConfig = self.config.getServiceConfig(serviceName);
     protocol.normalizeConfig(defaultConfig);
     protocol.normalizeConfig(option);
     let opt = util.merge(defaultConfig, option);
@@ -32,6 +32,9 @@ Ral.prototype.request = async function (serviceName, option) {
     let _data = await protocol.request(opt);
     return conver.unpack(opt, _data);
 }
+
+
+
 
 
 Ral.prototype.middleware = async function (ctx, next) {
