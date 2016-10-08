@@ -1,7 +1,7 @@
 module.exports.TEST_SERVER = {
     protocol: 'http',
-    pack: 'form',
-    unpack: 'string',
+    pack: 'json',
+    unpack: 'json',
     method: 'POST',
     encoding: 'gbk',
     timeout: 5000,
