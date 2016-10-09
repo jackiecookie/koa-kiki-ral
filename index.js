@@ -4,6 +4,11 @@ const path = require('path');
 Ral.modules = {};
 
 
+/*
+* todo:1 test index.js.
+* todo:2 test converter.
+*/
+
 module.exports = Ral;
 
 function Ral(option) {
@@ -50,7 +55,7 @@ Ral.prototype.getConverter = function (converterName) {
 
 Ral.prototype.middleware = async function (ctx, next) {
     ctx.ral = this;
-    await next;
+    await next();
 }
 
 
